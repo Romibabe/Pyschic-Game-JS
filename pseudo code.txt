@@ -1,0 +1,52 @@
+
+define variables computer guess , user input, counter, wins, guesses
+
+onkey press fire the compareGuesses()
+
+CompareGuesses()
+ 
+if counter <=10{
+
+check if computer guess == user input. 
+
+(if computer guess==user input) alert ("Your guess matched the computer's guess, well on your way to being a pyschic")
+counter++;
+wins ++;
+display wins;
+display losses;
+
+else 
+
+
+(if computer guess!==user input) alert("Try again")
+counter++;
+losses++;
+display
+wins;
+losses;
+
+
+displayGuesses()
+
+}
+
+else {
+alert("you've exhausted maximum tries allowed for this game! Better luck next time .
+printResult()
+)
+
+
+
+loop to keep a counter on the number of times the user has inputed.
+
+if the number exceeds < =5, 
+
+alert("keep guessing, being a pyschic takes work")
+
+
+else
+
+alert("you have exhausted the maximum number of tries")
+
+
+
